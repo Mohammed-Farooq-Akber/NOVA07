@@ -5,8 +5,7 @@ services:
     region: oregon
     plan: free
     autoDeploy: true
-    buildCommand: ""
-    startCommand: ""
+    buildCommand: echo "Using Dockerfile"
     envVars:
       - key: GOOGLE_API_KEY
         value: your-api-key
